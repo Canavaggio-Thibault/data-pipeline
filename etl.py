@@ -28,7 +28,7 @@ def load(data, file_path):
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(data)
-
+var:int
 if __name__ == "__main__":
     # Example usage
     extracted = extract('data.csv')

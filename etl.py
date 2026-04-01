@@ -1,5 +1,5 @@
 import csv
-
+#Initial setup
 def extract(file_path):
     """Extract data from a CSV file."""
     data = []

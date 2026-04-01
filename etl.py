@@ -9,6 +9,9 @@ def extract(file_path):
             data.append(row)
     return data
 
+def validation():
+    pass
+
 def transform(data):
     """Transform data by converting age to integer and adding a new field."""
     for row in data:
